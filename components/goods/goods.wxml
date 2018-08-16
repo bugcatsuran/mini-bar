@@ -1,0 +1,33 @@
+<!--components/goods/goods.wxml-->
+<view class='goods_shell'>
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <view class='goods_item clear'>
+      <view class='goods_item_l'>
+        <image class='good' src="{{item.img}}"></image>
+      </view>
+      <view class='goods_item_r'>
+        <view class='good_contain clear'>
+          <view class='vip'>
+            冷饮
+          </view>
+          {{item.title}}
+        </view>
+        <view class='buy_shell'>
+          <view class='price color_ff1b37'>
+            ¥
+            <view>
+              {{item.price["$numberDecimal"]}}
+            </view>
+          </view>
+          <!-- <view class='buy'>
+            <image class='plus' src='../../assets/icons/minus.png' bindtap='_minusGood' data-id="{{item.ID}}" data-index="{{index}}">
+            </image>
+            <view class='num'>{{item.num?item.num:0}}</view>
+            <image class='plus' src='../../assets/icons/plus.png' bindtap='_plusGood' data-id="{{item.ID}}" data-index="{{index}}">
+            </image>
+          </view> -->
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

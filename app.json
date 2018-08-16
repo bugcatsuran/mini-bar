@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/catalogue/catalogue",
+    "pages/index/index",
+    "pages/logs/logs",
+    "components/tab/tab",
+    "pages/qrcode/qrcode"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eaa32a",
+    "navigationBarTitleText": "小正太的小冰箱",
+    "navigationBarTextStyle": "white"
+  }
+}

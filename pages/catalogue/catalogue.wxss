@@ -1,0 +1,5 @@
+/* pages/catalogue/catalogue.wxss */
+.goods_shell{
+	background: #fff;
+	margin-top: 90rpx;
+}

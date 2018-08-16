@@ -1,0 +1,12 @@
+<!--pages/catalogue/catalogue.wxml-->
+
+<Tab 
+	list="{{classifyList}}" 
+	active="{{classifyList[0].value}}"
+	bind:changeTab="changeTab"
+/>
+
+<Goods
+	goods_shell="goods_shell"
+	list="{{goodsList}}"
+/>
