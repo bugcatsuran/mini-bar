@@ -87,3 +87,9 @@
 	margin-right: 10rpx;
 	padding: 0 10rpx;
 }
+.original-price{
+	color: grey;
+	text-decoration: line-through;
+	font-size: 30rpx !important;
+	margin-left: 5rpx;
+}

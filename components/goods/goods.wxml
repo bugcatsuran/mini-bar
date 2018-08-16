@@ -8,15 +8,17 @@
       <view class='goods_item_r'>
         <view class='good_contain clear'>
           <view class='vip'>
-            冷饮
+            小正太爱你哦
           </view>
           {{item.title}}
         </view>
         <view class='buy_shell'>
-          <view class='price color_ff1b37'>
-            ¥
-            <view>
-              {{item.price["$numberDecimal"]}}
+          <view class='price'>
+						<view wx:if="{{item.discountPrice}}" class='color_ff1b37'>
+              ¥{{item.discountPrice["$numberDecimal"]}}
+            </view>
+            <view class="{{item.discountPrice?'original-price':'color_ff1b37'}}">
+              ¥{{item.price["$numberDecimal"]}}
             </view>
           </view>
           <!-- <view class='buy'>
