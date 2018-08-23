@@ -15,19 +15,12 @@
         <view class='buy_shell'>
           <view class='price'>
 						<view wx:if="{{item.discountPrice}}" class='color_ff1b37'>
-              ¥{{item.discountPrice["$numberDecimal"]}}
+              {{item.discountPrice["$numberDecimal"]}} R
             </view>
             <view class="{{item.discountPrice?'original-price':'color_ff1b37'}}">
-              ¥{{item.price["$numberDecimal"]}}
+              {{item.price["$numberDecimal"]}} R
             </view>
           </view>
-          <!-- <view class='buy'>
-            <image class='plus' src='../../assets/icons/minus.png' bindtap='_minusGood' data-id="{{item.ID}}" data-index="{{index}}">
-            </image>
-            <view class='num'>{{item.num?item.num:0}}</view>
-            <image class='plus' src='../../assets/icons/plus.png' bindtap='_plusGood' data-id="{{item.ID}}" data-index="{{index}}">
-            </image>
-          </view> -->
         </view>
       </view>
     </view>

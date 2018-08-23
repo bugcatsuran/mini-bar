@@ -20,7 +20,17 @@ export const drinkData = [
 		"price": { "$numberDecimal": "2" }, 
 		"img": "http://pdi0jzs1t.bkt.clouddn.com/%E5%86%B0%E7%BA%A2%E8%8C%B6.png", 
 		"__v": 0 
-	}
+	},
+	{ "_id": { "$oid": "5b7d042fd6ac0b5544d82084" }, "title": "可乐300ml", "price": { "$numberDecimal": "2" },  "img": "http://pdi0jzs1t.bkt.clouddn.com/%E5%8F%AF%E5%8F%A3%E5%8F%AF%E4%B9%90300.jpeg", "__v": 0 },
+	{ "_id": { "$oid": "5b7d04c25aa1f15557b2718b" }, "title": "雪碧300ml", "price": { "$numberDecimal": "2" }, "img": "http://pdi0jzs1t.bkt.clouddn.com/%E9%9B%AA%E7%A2%A7300.jpeg", "__v": 0 },
+	{
+		"_id": {"$oid":("5b7d0d08596a1b556ef4cca9")},
+		"title": "果粒橙300ml",
+		"price": { "$numberDecimal": "2.5" },
+		"img": "http://pdi0jzs1t.bkt.clouddn.com/%E5%B0%8F%E6%9E%9C%E7%B2%92%E6%A9%99.jpeg",},
+	{ "_id": { "$oid": "5b7d05005aa1f15557b2718c" }, "title": "果粒橙450ml", "price": { "$numberDecimal": "3.5" },  "img": "http://pdi0jzs1t.bkt.clouddn.com/%E6%9E%9C%E7%B2%92%E6%A9%99300.jpeg", "__v": 0 },
+	{ "_id": { "$oid": "5b7d054c5aa1f15557b2718d" }, "title": "雪碧纤维+", "price": { "$numberDecimal": "5" },  "img": "http://pdi0jzs1t.bkt.clouddn.com/%E9%9B%AA%E7%A2%A7%E7%BA%A4%E7%BB%B4.jpeg", "__v": 0 },
+	{ "_id": { "$oid": "5b7d05c35aa1f15557b2718e" }, "title": "可口可乐零度300ml", "price": { "$numberDecimal": "2" }, "img": "http://pdi0jzs1t.bkt.clouddn.com/%E5%8F%AF%E5%8F%A3%E5%8F%AF%E4%B9%900%E5%8D%A1%E8%B7%AF%E9%87%8C.jpeg", "__v": 0 }
 ]
 
 export const snowData = [
@@ -29,7 +39,18 @@ export const snowData = [
 { "_id": { "$oid": "5b73e84702af0771d5eef86c" }, "title": "伊利火炬", "price": { "$numberDecimal": "3" }, "img": "http://pdi0jzs1t.bkt.clouddn.com/%E4%BC%8A%E5%88%A9%E7%81%AB%E7%82%AC.png", "__v": 0 },
 { "_id": { "$oid": "5b73e85102af0771d5eef86d" }, "title": "中街老冰棍", "img": "http://pdi0jzs1t.bkt.clouddn.com/%E4%B8%AD%E8%A1%97%E8%80%81%E5%86%B0%E6%A3%8D.png", "price": { "$numberDecimal": "0.5" }, "__v": 0 },
 { "_id": { "$oid": "5b73e85702af0771d5eef86e" }, "title": "冰块", "price": { "$numberDecimal": "0" }, "img": "http://pdi0jzs1t.bkt.clouddn.com/%E5%86%B0%E5%9D%97.png", "__v": 0 },
-{ "_id": { "$oid": "5b73e85d02af0771d5eef86f" }, "title": "聪明转转", "price": { "$numberDecimal": "1" }, "img": "http://pdi0jzs1t.bkt.clouddn.com/%E8%81%AA%E6%98%8E%E8%BD%AC%E8%BD%AC.png", "__v": 0 }
+{ "_id": { "$oid": "5b73e85d02af0771d5eef86f" }, "title": "聪明转转", "price": { "$numberDecimal": "1" }, "img": "http://pdi0jzs1t.bkt.clouddn.com/%E8%81%AA%E6%98%8E%E8%BD%AC%E8%BD%AC.png", "__v": 0 },
+	{ "_id": { "$oid": "5b7d062f5aa1f15557b27191" }, "title": "蒙牛随便", "price": { "$numberDecimal": "2" }, "img": "http://pdi0jzs1t.bkt.clouddn.com/%E9%9A%8F%E4%BE%BF.jpeg", "__v": 0 },
+	{ "_id": { "$oid": "5b7d066b596a1b556ef4cca7" }, "title": "绿色心情红豆", "price": { "$numberDecimal": "2" },"img": "http://pdi0jzs1t.bkt.clouddn.com/%E7%BB%BF%E8%89%B2%E5%BF%83%E6%83%85%EF%BC%88%E7%A7%98%E5%88%B6%E7%BA%A2%E8%B1%86%EF%BC%89.jpeg", "__v": 0 },
+	{ "_id": { "$oid": "5b7d05f45aa1f15557b2718f" }, "title": "绿色心情冰莎莎", "price": { "$numberDecimal": "1" }, "img": "http://pdi0jzs1t.bkt.clouddn.com/%E7%BB%BF%E8%89%B2%E5%BF%83%E6%83%85%EF%BC%88%E7%BB%BF%E8%8E%8E%E8%8E%8E%EF%BC%89.jpeg", "__v": 0 },
+	{ "_id": { "$oid": "5b7d068f596a1b556ef4cca8" }, "title": "蒙牛小布丁", "price": { "$numberDecimal": "0.5" }, "img": "http://pdi0jzs1t.bkt.clouddn.com/%E5%B0%8F%E5%B8%83%E4%B8%81.jpeg", "__v": 0 },
+	{
+		"_id": {"$oid":("5b7d108f596a1b556ef4ccaa")},
+		"price": { "$numberDecimal": "1" },
+		"title": "冰+",
+		"img": "http://pdi0jzs1t.bkt.clouddn.com/%E5%86%B0+.jpeg",
+		"__v": 0
+	}
 ]
 
 export const snacksData = [

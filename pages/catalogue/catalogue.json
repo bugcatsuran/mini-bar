@@ -1,6 +1,6 @@
 {
 	"usingComponents": {
 		"Tab": "../../components/tab/tab",
-		"Goods": "../../components/goods/goods"
+		"Foods": "../../components/foods/foods"
 	}
 }
