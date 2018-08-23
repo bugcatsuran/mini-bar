@@ -1,17 +1,20 @@
 <!--components/goods/goods.wxml-->
 <view class='goods_shell'>
+
   <block wx:for="{{list}}" wx:key="{{index}}">
+
     <view class='goods_item clear'>
+
       <view class='goods_item_l'>
         <image class='good' src="{{item.img}}"></image>
       </view>
+
       <view class='goods_item_r'>
         <view class='good_contain clear'>
-          <view class='vip'>
-            小正太爱你哦
-          </view>
+          <view class='vip'> 小正太爱你哦 </view>
           {{item.title}}
         </view>
+
         <view class='buy_shell'>
           <view class='price'>
 						<view wx:if="{{item.discountPrice}}" class='color_ff1b37'>
@@ -22,7 +25,14 @@
             </view>
           </view>
         </view>
+
+				<view class='go'>
+					GO
+				</view>
       </view>
+
     </view>
+
   </block>
+
 </view>

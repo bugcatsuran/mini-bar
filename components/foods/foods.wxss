@@ -42,6 +42,7 @@
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
+	position: relative;
 }
 .good_contain{
 	font-size: 30rpx;
@@ -92,4 +93,13 @@
 	text-decoration: line-through;
 	font-size: 30rpx !important;
 	margin-left: 5rpx;
+}
+.go{
+	color: white;
+	background: linear-gradient(90deg,#ff5230 0,#ff1544) ;
+	position: absolute;
+	bottom: 0rpx;
+	right: 5rpx;
+	border-radius: 10rpx;
+	padding: 0 20rpx;
 }
