@@ -9,6 +9,7 @@
 	justify-content: space-around;
 	color: #333;
 	font-size: 28rpx;
+	z-index: 99;
 }
 .tab_item_shell{
 	flex: 1;

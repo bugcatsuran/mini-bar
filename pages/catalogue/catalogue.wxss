@@ -3,3 +3,21 @@
 	background: #fff;
 	margin-top: 90rpx;
 }
+.modal-content{
+	color: white;
+	background-color:#179B16;
+	border-radius: 10rpx;
+}
+.modal-img{
+	width: 100%;
+}
+.goods{
+	text-align: center;
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+}
+.please{
+	text-align: center;
+	padding-top: 15rpx;
+	padding-bottom: 25rpx;
+}

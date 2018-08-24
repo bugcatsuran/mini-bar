@@ -9,4 +9,23 @@
 <Foods
 	goods_shell="goods_shell"
 	list="{{goodsList}}"
+	bind:tabGo="tabGo"
 />
+
+<Modal
+	show="{{showModal}}"
+	height="auto"
+>	
+	<view class='modal-content'>
+	<view class='goods'>
+			{{currentFood.title}}
+			{{currentFood.price["$numberDecimal"]}}
+			R
+		</view>
+		<image mode="aspectFit" class='modal-img' data-src="http://pdi0jzs1t.bkt.clouddn.com/admire.jpeg" src='http://pdi0jzs1t.bkt.clouddn.com/admire.jpeg' bindtap="previewImage"/>
+		<view class='please'>扫码支持小正太</view>
+	</view>
+</Modal>	
+
+
+

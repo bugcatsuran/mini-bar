@@ -1,6 +1,7 @@
 {
 	"usingComponents": {
 		"Tab": "../../components/tab/tab",
-		"Foods": "../../components/foods/foods"
+		"Foods": "../../components/foods/foods",
+		"Modal": "../../components/modal/modal"
 	}
 }

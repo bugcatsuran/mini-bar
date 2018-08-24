@@ -98,7 +98,7 @@
 	color: white;
 	background: linear-gradient(90deg,#ff5230 0,#ff1544) ;
 	position: absolute;
-	bottom: 0rpx;
+	bottom: -5rpx;
 	right: 5rpx;
 	border-radius: 10rpx;
 	padding: 0 20rpx;

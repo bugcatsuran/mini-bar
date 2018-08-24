@@ -18,7 +18,7 @@ Component({
   },
 
   methods: {
-		_selectTab(options){
+		selectTab(options){
 			const activeValue = options.currentTarget.dataset.value;
 
 			if (activeValue == this.data.active) return

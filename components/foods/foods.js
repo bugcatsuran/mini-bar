@@ -15,6 +15,9 @@ Component({
   },
 
   methods: {
-
+		tabGo(options){
+			const currentFood = options.currentTarget.dataset.currentfood;
+			this.triggerEvent('tabGo', {currentFood});
+		}
   }
 })

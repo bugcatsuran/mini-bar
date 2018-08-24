@@ -6,7 +6,7 @@
 		wx:for-item="tab"
 	>
 		<view
-			bindtap='_selectTab'
+			bindtap='selectTab'
 			data-value="{{tab.value}}"
 			class='tab_item_shell'
 		>

@@ -11,26 +11,12 @@ Page({
 		currentClassify:1,
 		goodsList: [],
 		page:1,
+		showModal:false,
+		currentFood:{}
   },
 
   onLoad: function (options) {
 		this.getGoodList()
-  },
-
-  onReady: function () {
-  
-  },
-
-  onShow: function () {
-  
-  },
-
-  onHide: function () {
-  
-  },
-
-  onUnload: function () {
-  
   },
 
 	changeTab(event){
@@ -60,15 +46,20 @@ Page({
 		})
 	},
 
-  onPullDownRefresh: function () {
-		
-  },
+	tabGo (options) {
+		// this.setData({
+		// 	showModal:true,
+		// 	currentFood: options.detail.currentFood
+		// })
+		// console.log(options.detail.currentFood)
+		this.previewImage();
+	},
 
-  onReachBottom: function () {
-  
-  },
-
-  onShareAppMessage: function () {
-  
-  }
+	previewImage(options) {
+		// const src = options.currentTarget.dataset.src;
+		// console.log(src)
+		wx.previewImage({
+			urls: ["http://pdi0jzs1t.bkt.clouddn.com/admire.jpeg"],
+		})
+	},
 })

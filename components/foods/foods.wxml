@@ -26,7 +26,7 @@
           </view>
         </view>
 
-				<view class='go'>
+				<view class='go' bindtap='tabGo' data-currentfood="{{item}}">
 					GO
 				</view>
       </view>
