@@ -3,7 +3,7 @@
 
   <block wx:for="{{list}}" wx:key="{{index}}">
 
-    <view class='goods_item clear'>
+    <view class='goods_item clear' bindtap='tabGo'>
 
       <view class='goods_item_l'>
         <image class='good' src="{{item.img}}"></image>
@@ -26,7 +26,7 @@
           </view>
         </view>
 
-				<view class='go' bindtap='tabGo' data-currentfood="{{item}}">
+				<view class='go' data-currentfood="{{item}}">
 					GO
 				</view>
       </view>
